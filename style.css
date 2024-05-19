@@ -1,0 +1,179 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana;
+    background-image: url(imgs/back-fundo.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+header#ctn-init{
+    background-color: rgb(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 115px;
+    
+}
+h1{
+    font-size: 30px;
+}
+h2{
+    font-size: 14px;
+    font-family: monospace;
+    letter-spacing: 3px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav#box-nav a{
+    text-decoration: none;
+    font-size: 14px;
+   margin-left: 20px;
+   letter-spacing: 2px;
+}
+#box-nav a:hover{
+    color: #ffffff;
+    transition: 0.4s;
+}
+#home{
+    color: #ffffff;
+}
+#serv{
+    color: black;
+}
+#cont{
+    color: black;
+}
+#sob{
+    color: black;
+}
+#blog{
+    color: black;
+}
+div#text-main{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    min-width: 90vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+span#txt-marc{
+    margin-top: 7px;
+    font-size: 140px;
+    letter-spacing: 5px;
+   font-weight:bolder;
+}
+button#btn-agenda{
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    font-size: 14px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+p#amb{
+    color: #ffffff;
+    font-size: 14px;
+}
+/* Section quem sou */
+section#qmsou{
+    margin-top: 640px;
+    background-color: rgb(0, 0, 0, 0.1);
+    padding: 40px;
+}
+/* DIV H1 QUEM SOU*/
+hr{
+    width: 18%;
+}
+div#div-h1{
+   margin-left: 100px;
+   padding-bottom: 10px;
+   margin-top: 30px;
+}
+h1#h1-qmsou{
+   font-size: 40px;
+   margin-top: 10px;
+}
+/* FIM DIV H1*/
+
+/* TEXTOS QUEM SOU */
+div#txts-qmsous{
+    letter-spacing: 1px;
+}
+p.txt-qmsou{
+    width: 470px;
+    text-align: justify;
+    font-size: 16px;
+}
+p#txt-1{
+    margin-bottom: 10px;
+}
+/* FIM TEXTOS*/
+
+/* DIV ITENS QUEM SOU: TEXTOS E PERFIL*/
+div#itens-qmsou{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+/* FIM DIV ITENS*/
+
+/* DIV LOGO PERFIL*/
+div#div-perfil{
+    background-color: rgb(177, 177, 177);
+    padding: 30px;
+    border-radius: 8px;
+}
+img#perfil-undraw{
+    width: 350px;
+}
+/* FIM DIV PERFIL*/
+
+/* DIV BUTÃO LEIA MAIS*/
+
+button#btn-lermais{
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    font-size: 14px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    margin-left: 100px;
+    cursor: pointer;
+}
+div.buttons a{
+    text-decoration: none;
+    color: white;
+}
+div.buttons a:hover{
+    color: black;
+    text-decoration: none;
+}
+button#btn-lermais:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+button#btn-agenda:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    transition: 0.5s;
+    border-radius: 5px;
+}
